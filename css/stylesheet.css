@@ -2690,7 +2690,7 @@ blockquote footer {
     letter-spacing: 3px;
 }
 .coming-soon .social-media .caption a:hover {
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     color: #d62828;
 }
 /* ---------------------------------------------------------------------- COMING SOON PAGE ENDS ---------- */
