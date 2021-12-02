@@ -3288,8 +3288,15 @@ section {
         min-width: 25% !important;
         padding-top: 60px !important;
     }
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 150px !important;
+        width: 50% !important;
+        height: 35% !important;
+    }
     .coming-soon .social-media {
-        padding-top: 25% !important;
+        padding-top: 15% !important;
     }
     .coming-soon .social-media .caption {
         padding-top: 20px !important;
@@ -3303,49 +3310,45 @@ section {
 }
 /* SCREEN SIZE - 1600px - FINISHED */
 @media (max-width: 1600px) {
-    .doctor-name{
-        margin-top: 10% !important;
-        margin-right: -20% !important;
-    }
-    .doctor-name h1 span{
-        font-size: 35px !important;
-        font-weight: 300 !important;
-    }
     .coming-soon {
-        padding-right: 20% !important;
+        padding-right: 15% !important;
         overflow: hidden !important;
-    }
-    .coming-soon .logo {
-        padding-top: 50px !important;
     }
     .coming-soon .count-down{
         padding-top: 15% !important;
     }
+    #dr-name{
+		font-size: 40px !important;
+	}
+    #doctor-title h1 {
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
     .coming-soon h1 {
-        font-size: 30px !important;
+        font-size: 45px !important;
         font-weight: 300 !important;
         letter-spacing: 5px !important;
         padding-bottom: 30px !important;
     }
     #counter {
-        width: 50% !important;
+        width: 65% !important;
     }
     #counter span {
-        font-size: 40px !important;
+        font-size: 35px !important;
         font-weight: 300 !important;
         min-width: 25% !important;
         padding-top: 30px !important;
     }
-    #counter span em {
-        font-size: 12px !important;
-        font-weight: 500 !important;
-        width: 80px !important;
-        letter-spacing: 3px !important;
-        margin-top: 20px !important;
-        padding-top: 5px !important;
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 100px !important;
+        width: 50% !important;
+        height: 30% !important;
     }
     .coming-soon .social-media {
-        padding-top: 22% !important;
+        padding-top: 20% !important;
     }
     .coming-soon .social-media .caption {
         padding-top: 20px !important;
@@ -3357,15 +3360,371 @@ section {
         letter-spacing: 3px !important;
     }
 }
+/* SCREEN SIZE - 1440px - FINISHED */
 @media (max-width: 1440px) {
-
+    .coming-soon {
+        padding-right: 10% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 15% !important;
+    }
+    #dr-name{
+		font-size: 40px !important;
+	}
+    #doctor-title h1 {
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 45px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 30px !important;
+    }
+    #counter {
+        width: 55% !important;
+    }
+    #counter span {
+        font-size: 35px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 75px !important;
+        width: 60% !important;
+        height: 30% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
 }
+/* SCREEN SIZE - 1366px - FINISHED */
 @media (max-width: 1366px) {
-
+    .coming-soon {
+        padding-right: 5% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 10% !important;
+    }
+    #dr-name{
+		font-size: 35px !important;
+	}
+    #doctor-title h1 {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 40px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 30px !important;
+    }
+    #counter {
+        width: 50% !important;
+    }
+    #counter span {
+        font-size: 30px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 75px !important;
+        width: 60% !important;
+        height: 30% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
 }
+/* SCREEN SIZE - 1280px - FINISHED */
 @media (max-width: 1280px) {
-
+    .coming-soon {
+        padding-right: 0% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 10% !important;
+    }
+    #dr-name{
+		font-size: 30px !important;
+	}
+    #doctor-title h1 {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 35px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 30px !important;
+    }
+    #counter {
+        width: 50% !important;
+    }
+    #counter span {
+        font-size: 26px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 65px !important;
+        width: 60% !important;
+        height: 30% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 15px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
 }
+/* SCREEN SIZE - 1024px - FINISHED */
+@media (max-width: 1024px) {
+    .coming-soon {
+        padding-left: 5% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 10% !important;
+    }
+    #dr-name{
+		font-size: 25px !important;
+	}
+    #doctor-title h1 {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 30px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 30px !important;
+    }
+    #counter {
+        width: 50% !important;
+    }
+    #counter span {
+        font-size: 22px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 50px !important;
+        left: 65px !important;
+        width: 60% !important;
+        height: 30% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
+}
+/* SCREEN SIZE - 800px - FINISHED */
+@media (max-width: 800px) {
+    .coming-soon {
+        padding-left: 5% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 10% !important;
+    }
+    #dr-name{
+		font-size: 20px !important;
+	}
+    #doctor-title h1 {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 30px !important;
+    }
+    #counter {
+        width: 50% !important;
+    }
+    #counter span {
+        font-size: 18px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 40px !important;
+        left: 35px !important;
+        width: 55% !important;
+        height: 60% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 30% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 10px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
+}
+/* SCREEN SIZE - 768px - FINISHED */
+@media (max-width: 768px) {
+    .coming-soon {
+        padding-left: 5% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 15% !important;
+    }
+    #dr-name{
+		font-size: 15px !important;
+	}
+    #doctor-title h1 {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+    }
+    .coming-soon h1 {
+        font-size: 20px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
+        padding-bottom: 0px !important;
+    }
+    #counter {
+        width: 50% !important;
+    }
+    #counter span {
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 40px !important;
+        left: 0px !important;
+        width: 55% !important;
+        height: 60% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 10px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
+}
+/* SCREEN SIZE - 425px - FINISHED */
+@media (max-width: 425px) {
+    .coming-soon {
+        padding-left: 5% !important;
+        overflow: hidden !important;
+    }
+    .coming-soon .count-down{
+        padding-top: 15% !important;
+    }
+    #dr-name{
+		font-size: 14px !important;
+	}
+    #doctor-title h1 {
+        font-size: 14px !important;
+        font-weight: 300 !important;
+        letter-spacing: 1px !important;
+    }
+    .coming-soon h1 {
+        font-size: 18px !important;
+        font-weight: 300 !important;
+        letter-spacing: 2px !important;
+        padding-bottom: 0px !important;
+    }
+    #counter {
+        width: 85% !important;
+    }
+    #counter span {
+        font-size: 16px !important;
+        font-weight: 300 !important;
+        min-width: 25% !important;
+        padding-top: 30px !important;
+    }
+    .social-media {
+        position: fixed !important;
+        bottom: 40px !important;
+        left: 50px !important;
+        width: 50% !important;
+        height: 60% !important;
+    }
+    .coming-soon .social-media {
+        padding-top: 20% !important;
+    }
+    .coming-soon .social-media .caption {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+    .coming-soon .social-media .caption a {
+        font-size: 10px !important;
+        font-weight: 400 !important;
+        letter-spacing: 3px !important;
+    }
+}
+/* ======================================================================================== */
 @media (min-width: 992px) and (max-width: 1024px) {
     .newsletter form .btn {
         margin-left: 0px;
@@ -3426,13 +3785,13 @@ section {
         padding-left: 20px;
         padding-right: 20px;
     }	
-	.coming-soon {
+	/* .coming-soon {
 		background-attachment: fixed;
 		background-image: url(../images/smartphone/1.jpg);
 		background-repeat: repeat-y;
 		background-position: top center;
 		background-size: cover;
-	}
+	} */
 	.offline {
 		background-attachment: fixed;
 		background-image: url(../images/smartphone/2.jpg);
