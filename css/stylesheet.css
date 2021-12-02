@@ -2621,29 +2621,30 @@ blockquote footer {
 }
 /* ---------------------------------------------------------------------- CONTACT US ENDS ---------- */
 /* ---------------------------------------------------------------------- COMING SOON PAGE STARTS ---------- */
-
-.doctor-name{
-    float: right;
-    margin-top: 15%;
-    margin-right: -45%;
-}
-.doctor-name h1 span{
-    font-size: 60px;
-    font-weight: 300;
-}
 .coming-soon {
     background-attachment: fixed;
-    background-image: url(../images/doctor-background-image.png);
+    background-image: url(../images/florim-cuculi-banner.jpg);
     background-repeat: repeat-y;
     background-position: center center;
     background-size: cover;
-    padding-right: 20%;
-}
-.coming-soon .logo {
-    padding-top: 60px;
+    padding-right: 25%;
 }
 .coming-soon .count-down{
 	padding-top: 25%;
+}
+#dr-name{
+    font-size: 40px;
+}
+#doctor-title h1 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #808080;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+#doctor-title h1 span {
+    font-weight: 500;
+    color: #d62828;
 }
 .coming-soon h1 {
     font-size: 40px;
@@ -2651,10 +2652,11 @@ blockquote footer {
     color: #808080;
     text-transform: uppercase;
     letter-spacing: 7px;
-	padding-bottom:40px;
+	padding-bottom: 40px;
 }
 .coming-soon h1 span {
-    color: #b39500;
+    font-weight: 500;
+    color: #d62828;
 }
 #counter {
     width: 50%;
@@ -2672,21 +2674,8 @@ blockquote footer {
     padding-left: 0;
     padding-top: 75px;
 }
-#counter span em {
-    font-size: 12px;
-    font-weight: 500;
-    color: #808080;
-    font-style: normal;
-    display: block;
-	width:80px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    margin-top: 20px;
-	padding-top: 5px;
-    border-top: 1px solid #b39500;
-}
 .coming-soon .social-media {
-	padding-top: 30%;
+	padding-top: 25%;
 }
 .coming-soon .social-media .caption {
     padding-top: 20px;
@@ -2702,7 +2691,7 @@ blockquote footer {
 }
 .coming-soon .social-media .caption a:hover {
     text-decoration: line-through;
-    color: #b39500;
+    color: #d62828;
 }
 /* ---------------------------------------------------------------------- COMING SOON PAGE ENDS ---------- */
 /* ---------------------------------------------------------------------- OFFLINE STARTS ---------- */
@@ -3269,49 +3258,38 @@ section {
 /* ---------------------------------------------------------------------------- MEDIA QURIES STARTS ------------------ */
 /* SCREEN SIZE - 1920px - FINISHED */
 @media (max-width: 1920px) {
-    .doctor-name{
-        margin-top: 15% !important;
-        margin-right: -30% !important;
-    }
-    .doctor-name h1 span{
-        font-size: 40px !important;
-        font-weight: 300 !important;
-    }
     .coming-soon {
-        padding-right: 20% !important;
+        padding-right: 25% !important;
         overflow: hidden !important;
     }
-    .coming-soon .logo {
-        padding-top: 50px !important;
-    }
     .coming-soon .count-down{
-        padding-top: 25% !important;
+        padding-top: 15% !important;
+    }
+    #dr-name{
+		font-size: 45px !important;
+	}
+    #doctor-title h1 {
+        font-size: 25px !important;
+        font-weight: 300 !important;
+        letter-spacing: 5px !important;
     }
     .coming-soon h1 {
-        font-size: 40px !important;
+        font-size: 50px !important;
         font-weight: 300 !important;
         letter-spacing: 7px !important;
-        padding-bottom: 40px !important;
+        padding-bottom: 30px !important;
     }
     #counter {
-        width: 50% !important;
+        width: 75% !important;
     }
     #counter span {
         font-size: 40px !important;
         font-weight: 300 !important;
         min-width: 25% !important;
-        padding-top: 30px !important;
-    }
-    #counter span em {
-        font-size: 12px !important;
-        font-weight: 500 !important;
-        width: 80px !important;
-        letter-spacing: 3px !important;
-        margin-top: 20px !important;
-        padding-top: 5px !important;
+        padding-top: 60px !important;
     }
     .coming-soon .social-media {
-        padding-top: 30% !important;
+        padding-top: 25% !important;
     }
     .coming-soon .social-media .caption {
         padding-top: 20px !important;
