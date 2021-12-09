@@ -47,10 +47,11 @@ body {
 a {
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    color: #b39500;
+    color: #d62828;
     text-decoration: none;
 }
 a:hover {
+    color: #b31515;
     text-decoration: none;
 }
 /* ---------------------------------------------------------------------- LINK ENDS ------------------ */
@@ -91,7 +92,7 @@ a:hover {
     height: 18px;
     line-height: 18px;
     text-align: center;
-    background-color: #b39500;
+    background-color: #d62828;
     border-radius: 50%;
 }
 .shop_cart a i.icon-bag {} .normal {
@@ -110,7 +111,8 @@ a:hover {
     transition: all 0.3s ease;
 }
 .normal.inner {
-    background: rgba(242, 242, 242, 1);
+    /* background: rgba(242, 242, 242, 1); */
+    background-color: #000000;
 	position:static!important;
 }
 .sticky {
@@ -118,7 +120,7 @@ a:hover {
     padding-bottom: 20px;
     position: fixed;
     top: 0px;
-    background: rgba(242, 242, 242, 1);
+    background: #000000;
     width: 100%;
     z-index: 999999;
     left: 0;
@@ -150,13 +152,25 @@ a:hover {
 }
 .tp-caption.slider-Button:hover,
 .slider-Button:hover {
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
     border-radius: 30px 30px 30px 30px;
     border-style: solid;
     border-width: 0;
     color: #fff;
     text-decoration: none;
+}
+#revbanner {
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden !important;
+    transform-style: flat !important;
+    z-index: 100 !important;
+    visibility: inherit !important;
+    opacity: 1 !important;
+    transform-origin: 50% 50% 0px !important;
+    left: 0 !important;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1) !important;
 }
 /* ---------------------------------------------------------------------- SLIDER ENDS ------------------ */
 /* ---------------------------------------------------------------------- INNER BANNER STARTS ------------------ */
@@ -198,7 +212,7 @@ ol.breadcrumb {
     color: #999999;
 }
 .breadcrumb li a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .breadcrumb>.active {
     color: #999999;
@@ -264,19 +278,20 @@ ol.breadcrumb {
     color: #808080;
 }
 .home-intro h1 {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 400;
-    color: #808080;
+    color: #d62828;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 .home-intro h1 span {
-    color: #b39500;
+    color: #d62828;
 }
 .home-intro .description {
     font-size: 18px;
     padding-top: 20px;
     line-height: 30px;
+    text-align: justify;
 }
 /* ---------------------------------------------------------------------- HOME INTRO ENDS ------------------ */
 
@@ -368,7 +383,7 @@ ol.breadcrumb {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
 .progress-bars .block .progress-bar {
-    background-color: #b39500;
+    background-color: #d62828;
     position: relative;
 }
 .progress-bars .block .progress-label {
@@ -461,7 +476,7 @@ ol.breadcrumb {
 	color: #808080;
 }
 .team .block .name a:hover {
-	color: #b39500;
+	color: #d62828;
 }
 .team .block .designation {
     font-size: 12px;
@@ -507,7 +522,7 @@ ol.breadcrumb {
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
 }
 .team .team-details .progress-bars .block .progress-bar {
-    background-color: #b39500;
+    background-color: #d62828;
     position: relative;
 }
 .team .team-details .progress-bars .block .progress-label {
@@ -604,7 +619,7 @@ ol.breadcrumb {
     color: #fff;
 }
 .picture .text-overlay h1 a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .picture .text-overlay .author {
     position: absolute;
@@ -726,7 +741,7 @@ ol.breadcrumb {
     font-weight: 300;
     color: #fff;
     padding-bottom: 26px;
-    border-bottom: 1px solid #b39500;
+    border-bottom: 1px solid #d62828;
 }
 .fun-facts .block .caption {
     font-size: 12px;
@@ -786,7 +801,7 @@ ol.breadcrumb {
     text-transform: uppercase;
 }
 .blog .post .info .user a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .blog .post .description {
     font-size: 14px;
@@ -806,7 +821,7 @@ ol.breadcrumb {
     text-transform: uppercase;
 }
 .blog .post .readmore a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 /* ---------------------------------------------------------------------- BLOG ENDS ------------------ */
 /* ---------------------------------------------------------------------- POST DETAIL STARTS ------------------ */
@@ -863,7 +878,7 @@ blockquote footer {
 .blog .tag ul li {
     display: inline-block;
     list-style-type: none;
-    color: #b39500;
+    color: #d62828;
     padding-right: 20px;
 }
 .blog .tag ul li:last-child {
@@ -873,7 +888,7 @@ blockquote footer {
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #b39500;
+    color: #d62828;
 }
 .blog .tag ul li a:hover {
     color: #000;
@@ -1017,7 +1032,7 @@ blockquote footer {
     text-transform: uppercase;
 }
 .comments .media-heading .info .user a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .comments .media-heading .date,
 .comments .media-heading .time {
@@ -1044,7 +1059,7 @@ blockquote footer {
 .comments .media-body a.reply {
     font-size: 12px;
     font-weight: 600;
-    color: #666666b39500;
+    color: #666666d62828;
     letter-spacing: 3px;
     text-transform: uppercase;
 }
@@ -1107,8 +1122,8 @@ blockquote footer {
 }
 .leave-a-reply form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .leave-a-reply form .btn {
     margin-top: 20px;
@@ -1228,7 +1243,7 @@ blockquote footer {
 .sidebar .categories ul li a:hover {
     font-size: 12px;
     text-transform: uppercase;
-    color: #b39500;
+    color: #d62828;
     text-decoration: line-through;
 }
 .sidebar .categories ul li span {
@@ -1252,7 +1267,7 @@ blockquote footer {
 .sidebar .filterby ul li a:hover {
     font-size: 12px;
     text-transform: uppercase;
-    color: #b39500;
+    color: #d62828;
     text-decoration: line-through;
 }
 .sidebar .filterby ul li div.checkbox{
@@ -1280,7 +1295,7 @@ blockquote footer {
     margin-top: 0px;
 }
 .sidebar .latest-posts .post h2 a {
-    color: #b39500;
+    color: #d62828;
 }
 .sidebar .latest-posts .post h2 a:hover {
     color: #b2b2b2;
@@ -1301,7 +1316,7 @@ blockquote footer {
     text-transform: uppercase;
 }
 .sidebar .latest-posts .post .info .user a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .sidebar .tags ul {
     padding: 0px;
@@ -1386,8 +1401,8 @@ blockquote footer {
 }
 .newsletter form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .newsletter form .btn {
     display: inline-block;
@@ -1520,7 +1535,7 @@ blockquote footer {
     font-size: 18px;
     display: inline-block;
     color: #fff;
-    background-color: #b39500;
+    background-color: #d62828;
     border: none;
     border-bottom: 1px solid transparent;
     border-radius: 0px;
@@ -1624,11 +1639,11 @@ blockquote footer {
 	text-transform:uppercase;
 }
 .product .product-overlay .icons>:first-child .icon:hover {
-	color: #b39500;
-	border: 1px solid #b39500;
+	color: #d62828;
+	border: 1px solid #d62828;
 }
 .product .product-overlay .icons>:first-child .icon a:hover {
-	color: #b39500;
+	color: #d62828;
 	text-decoration: line-through;
 }
 
@@ -1722,7 +1737,7 @@ blockquote footer {
 .product-page .detail .c-review{
 	font-size:12px;
 	float:left;
-	color:#b39500;
+	color:#d62828;
 	text-transform:uppercase;
 	letter-spacing:3px;
 	font-weight:400;
@@ -1773,7 +1788,7 @@ blockquote footer {
 .product-page .detail ul.cats li{
 	font-size:12px;
 	float:left;
-	color:#b39500;
+	color:#d62828;
 	text-transform:uppercase;
 	letter-spacing:2px;
 	font-weight:400;
@@ -1781,7 +1796,7 @@ blockquote footer {
 	padding-right:10px;
 }
 .product-page .detail ul.cats li a{	
-	color:#b39500;	
+	color:#d62828;	
 }
 .product-page .detail ul.cats li a:hover{	
 	color:#808080;	
@@ -1829,8 +1844,8 @@ blockquote footer {
 }
 .product-page .detail .button form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .product-page .detail .button form .btn {
     margin-top: 0px;
@@ -1950,9 +1965,9 @@ blockquote footer {
 .tab-style .nav>li.active .caption,
 .tab-style .nav>li>a:focus .caption,
 .tab-style .nav>li>a:hover .caption {
-    color: #b39500;
+    color: #d62828;
     border:none;
-	border-bottom: 1px solid #b39500;
+	border-bottom: 1px solid #d62828;
 }
 /* -- TAB STYLE ENDS -- */
 
@@ -2148,8 +2163,8 @@ blockquote footer {
 }
 .shop .cart-grid-button form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .shop .cart-grid-button form .btn {
     margin-top: 0px;
@@ -2221,8 +2236,8 @@ blockquote footer {
 }
 .shop .proceed-to-checkout .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .shop .proceed-to-checkout .btn {
     margin-top: 40px;
@@ -2307,8 +2322,8 @@ blockquote footer {
 }
 .checkout .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .checkout .btn {
     margin-top: 40px;
@@ -2502,7 +2517,7 @@ blockquote footer {
     color: #808080;
 }
 .contact-us .contact-info .block .caption a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 .contact-us iframe {
     border: none;
@@ -2572,8 +2587,8 @@ blockquote footer {
 }
 .contact-us .contact-form form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 .contact-us .contact-form form .btn {
     margin-top: 20px;
@@ -2719,7 +2734,7 @@ blockquote footer {
 	padding-bottom:40px;
 }
 .offline h1 span {
-    color: #b39500;
+    color: #d62828;
 }
 .offline .social-media {
 	padding-top:300px;
@@ -2738,7 +2753,7 @@ blockquote footer {
 }
 .offline .social-media .caption a:hover {
     text-decoration: line-through;
-    color: #b39500;
+    color: #d62828;
 }
 
 /* ---------------------------------------------------------------------- OFFLINE PAGE ENDS ---------- */
@@ -2778,7 +2793,7 @@ blockquote footer {
 	vertical-align:middle;
 }
 .error .caption h1 p span {
-    color: #b39500;
+    color: #d62828;
 }
 .error .button{
 	text-align:right;
@@ -2805,7 +2820,7 @@ blockquote footer {
 }
 .error .social-media .caption a:hover {
     text-decoration: line-through;
-    color: #b39500;
+    color: #d62828;
 }
 /* ---------------------------------------------------------------------- ERROR PAGE ENDS ---------- */
 /* ---------------------------------------------------------------------- FOOTER STARTS ------------------ */
@@ -2828,7 +2843,7 @@ footer .social-media .caption a {
 }
 footer .social-media .caption a:hover {
     text-decoration: line-through;
-    color: #b39500;
+    color: #d62828;
 }
 footer .contact-info {
     padding-top: 120px;
@@ -2854,7 +2869,7 @@ footer .contact-info address a {
     padding-bottom: 4px;
 }
 footer .contact-info address a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 footer .contact-info address .phone {
     padding-top: 18px;
@@ -2893,7 +2908,7 @@ footer .latest-posts .post h2 a {
     color: #b2b2b2;
 }
 footer .latest-posts .post h2 a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 footer .latest-posts .post .info {
     font-size: 12px;
@@ -2911,7 +2926,7 @@ footer .latest-posts .post .info .user a {
     text-transform: uppercase;
 }
 footer .latest-posts .post .info .user a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 footer .get-in-touch h1 {
     padding: 0px;
@@ -2959,8 +2974,8 @@ footer .get-in-touch form .btn-default {
 }
 footer .get-in-touch form .btn-default:hover {
     color: #fff;
-    background-color: #b39500;
-    border-color: #b39500;
+    background-color: #d62828;
+    border-color: #d62828;
 }
 footer .get-in-touch form .btn {
     margin-top: 20px;
@@ -3003,7 +3018,7 @@ footer .copyright .created-by a {
     color: #808080;
 }
 footer .copyright .created-by a:hover {
-    color: #b39500;
+    color: #d62828;
 }
 /* ---------------------------------------------------------------------- FOOTER ENDS ------------------ */
 /* ------------------------------------------------------ HALF IMAGE HALF TEXT STARTS  ------------------ */
@@ -3063,8 +3078,8 @@ section {
 }
 .button a.fill-black:hover {
     color: #fff;
-    border: 1px solid #b39500;
-    background-color: #b39500;
+    border: 1px solid #d62828;
+    background-color: #d62828;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -3097,8 +3112,8 @@ section {
 }
 .button a.no-fill-grey:hover {
     color: #fff;
-    border: 1px solid #b39500;
-    background-color: #b39500;
+    border: 1px solid #d62828;
+    background-color: #d62828;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -3114,7 +3129,7 @@ section {
     right: 15px;
     display: none;
     text-indent: -9999px;
-    background-color: #b39500;
+    background-color: #d62828;
     background-image: url(../images/icons/to-top.png);
     background-repeat: no-repeat;
     background-position: center center;
@@ -3166,14 +3181,16 @@ section {
 
 .parallax-1 {
     background-attachment: fixed;
-    background-image: url(../images/parallax/1.jpg);
+    /* background-image: url(../images/parallax/1.jpg); */
+    background-color: #252525;
     background-repeat: repeat-y;
     background-position: 50% 0;
     background-size: cover;
 }
 .parallax-2 {
     background-attachment: fixed;
-    background-image: url(../images/parallax/2.jpg);
+    /* background-image: url(../images/parallax/2.jpg); */
+    background-color: #252525;
     background-repeat: repeat-y;
     background-position: 50% 0;
     background-size: cover;
@@ -3966,7 +3983,7 @@ section {
 		text-transform: uppercase;
 		margin-top:30px;
 		padding-top: 2px;
-		border-top: 1px solid #b39500;
+		border-top: 1px solid #d62828;
 	}
 	.coming-soon .light-grey-bg, .offline .light-grey-bg, .error .light-grey-bg
 	{
