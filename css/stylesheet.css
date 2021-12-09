@@ -166,6 +166,7 @@ a:hover {
     padding: 120px 0 120px;
     background-position: center top;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 .inner-banner h1 {
@@ -383,7 +384,7 @@ ol.breadcrumb {
 /* ---------------------------------------------------------------------- OUR TEAM STARTS ------------------ */
 
 .our-team {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 120px;
 }
 .our-team h1 {
