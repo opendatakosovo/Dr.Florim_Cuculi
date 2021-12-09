@@ -3178,11 +3178,18 @@ section {
 }
 /* ------------------------------------------------------ NO GUTTER ENDS ---------- */
 /* ---------------------------------------------------------------------------- PARALLAX STARTS ------------------ */
-
-.parallax-1 {
+.parallax-0 {
     background-attachment: fixed;
     /* background-image: url(../images/parallax/1.jpg); */
     background-color: #252525;
+    background-repeat: repeat-y;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.parallax-1 {
+    background-attachment: fixed;
+    /* background-image: url(../images/parallax/1.jpg); */
+    background-color: #000000;
     background-repeat: repeat-y;
     background-position: 50% 0;
     background-size: cover;
